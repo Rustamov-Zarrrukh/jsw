@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Example form</h1>
+  <div id="counter">
+    All: 0 | Need: 0 | Success: 0 | Error: 0
+  </div>
+
+  <form id="myForm" class="myForm">
+    <div class="Form">
+      <div class="form-1">
+        <label class="required">
+          <span class="title">Name</span>
+          <input type="text" id="name" placeholder="Enter your name">
+          <div class="error-message" id="error-name"></div>
+        </label>
+
+        <label class="required">
+          <span class="title">Age</span>
+          <input type="text" id="age" placeholder="Enter your age">
+          <div class="error-message" id="error-age"></div>
+        </label>
+
+        <label>
+          <span class="title">Surname</span>
+          <input type="text" id="surname" placeholder="Enter your surname">
+        </label>
+
+        <label class="required">
+          <span class="title">About You</span>
+          <input type="text" id="about" placeholder="About you">
+          <div class="error-message" id="error-about"></div>
+        </label>
+
+        <label class="required">
+          <span class="title">Email address</span>
+          <input type="email" id="email" placeholder="Enter your email">
+          <div class="error-message" id="error-email"></div>
+        </label>
+
+        <label class="required">
+          <span class="title">What is JavaScript?</span>
+          <input type="text" id="js" placeholder="JavaScript meaning">
+          <div class="error-message" id="error-js"></div>
+        </label>
+      </div>
+
+      <div class="form-2">
+        <label>
+          <span class="title">Phone number</span>
+          <input type="text" id="phone" placeholder="Enter your phone number">
+        </label>
+
+        <label class="required">
+          <span class="title">What is HTML?</span>
+          <input type="text" id="html" placeholder="HTML meaning">
+          <div class="error-message" id="error-html"></div>
+        </label>
+
+        <label>
+          <span class="title">Your Mom's name</span>
+          <input type="text" id="mom" placeholder="Mom's name">
+        </label>
+
+        <label class="required">
+          <span class="title">What is CSS?</span>
+          <input type="text" id="css" placeholder="CSS meaning">
+          <div class="error-message" id="error-css"></div>
+        </label>
+
+        <label>
+          <span class="title">Your Pap's name</span>
+          <input type="text" id="pap" placeholder="Pap's name">
+        </label>
+
+        <label>
+          <span class="title">Your favourite car</span>
+          <input type="text" id="car" placeholder="Favourite car">
+        </label>
+      </div>
+
+    </div>
+
+
+    <button type="submit">Save changes</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
